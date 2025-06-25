@@ -1,0 +1,4 @@
+If we download the source code and look a bit on it, we can observe that the account_balance is assigned to an int => there is a possibility to overflow it.
+
+So, when you are asked how many knockoff flags you want, if you enter a value over 2147483647, it will make an overflow and return a negative value that will increment the current balance of the account.
+

@@ -1,0 +1,11 @@
+Can you read files in the root file?
+
+How can you do that if su does not work?
+
+Well, there are some techniques to bypass local security restrictions.
+
+First of all, use "sudo -l" to see where you have root permission. You'll see there's "vi".
+
+And according to "https://gtfobins.github.io/" (thank you for this), there is an "exploit" to get user privileges by using "vi".
+More exactly, you create a vi folder and write ":!/bin/bash" (execute /bin/bash command using vi). Then you get root privilege.
+After that, you can change to /root and find your hidden file flag
