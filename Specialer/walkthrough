@@ -1,0 +1,9 @@
+So, as soon as you start this challange, you can observe that no "normal" commands work.
+
+How can you see what "commands" you have access to? By simply double tapping "tab".
+
+Now that you see those, we'll mainly use "cd" and "echo".
+
+If we use "cd" we can observe that we have multiple folders. Now, go through each of them and try to see their txt files output by using echo - echo (<$name_of_file).
+
+Do this until you find the flag!
